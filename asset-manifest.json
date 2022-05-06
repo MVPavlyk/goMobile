@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/goMobile/static/css/main.8e3ef136.css",
+    "main.js": "/goMobile/static/js/main.b42bd132.js",
+    "static/media/logo.svg": "/goMobile/static/media/logo.2cda9cc3866f1d43f779d0d50a8d1c59.svg",
+    "index.html": "/goMobile/index.html",
+    "static/media/sort.svg": "/goMobile/static/media/sort.c5d236ab048016a57cd6b61049f068ad.svg",
+    "static/media/location.svg": "/goMobile/static/media/location.f788a11a132ea50da1d6b19ac980ea14.svg",
+    "static/media/search.svg": "/goMobile/static/media/search.56d66a1b84b4903aeb72db3693273939.svg",
+    "static/media/star.svg": "/goMobile/static/media/star.7879deec938d01a44d446776a33834ed.svg",
+    "static/media/filter.svg": "/goMobile/static/media/filter.4e383c0f23920613165e0dae672ff2bd.svg",
+    "main.8e3ef136.css.map": "/goMobile/static/css/main.8e3ef136.css.map",
+    "main.b42bd132.js.map": "/goMobile/static/js/main.b42bd132.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e3ef136.css",
+    "static/js/main.b42bd132.js"
+  ]
+}
