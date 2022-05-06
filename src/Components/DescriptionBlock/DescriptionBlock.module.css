@@ -1,0 +1,101 @@
+.desc_block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 8%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.desc_block:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.desc_page_text {
+    width: 40%;
+    font-family: 'Poiret One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+
+}
+
+.desc_page_photo {
+    width: 40%;
+}
+
+@media (max-width: 1300px) {
+    .desc_page_text {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .desc_page_text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .desc_page_text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .desc_page_text {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 840px) {
+    .desc_page_text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .desc_block,
+    .desc_block:nth-child(2n) {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 55px;
+    }
+
+    .desc_page_text {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 30px;
+    }
+
+    .desc_page_photo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 650px) {
+    .desc_page_text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 470px) {
+    .desc_page_text {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .desc_block,
+    .desc_block:nth-child(2n) {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .desc_page_text {
+        font-size: 16px;
+    }
+}
